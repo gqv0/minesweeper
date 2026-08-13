@@ -240,7 +240,7 @@ while True:
             # reveal that first choice
             b = curr_board.reveal_cell(cell) # <- remember that this returns a bool of whether or not a mine was hit (see reveal_cell)
             is_first_turn = False 
-
+            
         # game loop if it's not the first turn
         else:
             # checks that make sure that the second input is valid
